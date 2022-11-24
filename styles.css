@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(76, 66, 107);
+
+}
+
+.background {
+    height: 100vh;
+    background: linear-gradient(rgb(33, 9, 73),rgb(94, 78, 104));
+}
+
+.intro {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.img-shipt {
+    top: 170px;
+    left: 4px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background-image: url(images/shipt.png);
+    background-size: 100%;
+}
+
+.img-spoce {
+    top: 45px;
+    left: 500px;
+    width: 866px;
+    height: 600px;
+    position: absolute;
+    background-image: url(images/spoce.png);
+    background-size: 100%;
+}
+
+.text {
+    background: linear-gradient(rgb(249,194,43),rgb(251,78,104));
+    font-family: 'pixel';
+    font-size: 100px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-1 {
+    background: linear-gradient(rgb(249,194,43),rgb(251,78,104));
+    font-family: 'pixelix';
+    font-size: 28px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-2 {
+    background: linear-gradient(rgb(249,194,43),rgb(251,78,104));
+    font-family: 'pixelix';
+    font-size: 20px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-3 {
+    background: linear-gradient(rgb(249,194,43),rgb(251,78,104));
+    font-family: 'pixelix';
+    font-size: 26px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    margin-top: 8px;
+    font-size: 30px;
+    font-family: 'pixel';
+    width: 90%;
+    position: absolute;
+    top: 13px;
+    left: 35px;
+    display: flex;
+    align-items: center;
+}
+
+div.box-1  { 
+    left: 8px;
+    width: 90%;
+    position: absolute;
+    top: 12px;
+    background-color: rgba(33, 25, 71, 0.397);
+    height: 80px;
+    width: 150px;
+    border: 2px solid rgba(114, 116, 255, 0.219);
+    border-radius: 12px;
+}
+
+div.box-2 {
+    font-family: 'pixelix';
+    left: 29.5%;
+    position: absolute;
+    top: 20%;
+    margin: auto;
+    background: linear-gradient(rgb(41, 33, 75),rgb(78, 40, 78));
+    height: 500px;
+    width: 550px;
+    border: 2px solid rgba(114, 116, 255, 0.219);
+    border-radius: 12px;
+}
+
+div.box-3 {
+    font-family: 'pixelix';
+    font-size: 10px;
+    left: 75%;
+    position: absolute;
+    top: 20%;
+    background: linear-gradient(rgb(41, 33, 75),rgb(78, 40, 78));
+    height: 500px;
+    width: 300px;
+    border: 2px solid rgba(114, 116, 255, 0.219);
+    border-radius: 12px;
+}
+
+div.box-4 {
+    font-family: 'pixelix';
+    font-size: 10px;
+    left: 75%;
+    position: absolute;
+    top: 3%;
+    background: linear-gradient(rgb(41, 33, 75),rgb(70, 40, 78));
+    height: 100px;
+    width: 300px;
+    border: 2px solid rgba(114, 116, 255, 0.219);
+    border-radius: 12px;
+}
+
+ nav ul li a {
+    text-decoration: none;
+    color: rgb(144, 44, 226);
+ }
+
+ ul {
+    list-style-type: square;
+}
+
+@font-face {
+    font-family: 'pixel';
+    src: url(fonts/slkscre.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'pixelix';      /* pixelix is a smaller more compact version of pixel */
+    src: url(fonts/slkscrb.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
